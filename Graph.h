@@ -1,6 +1,7 @@
 #include <unordered_map>
 #include <vector>
 #include "Vertex.h"
+#pragma once
 
 using namespace std;
 

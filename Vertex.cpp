@@ -1,4 +1,5 @@
 #include "Vertex.h"
+#pragma once
 
 void Vertex::setName(int name) {
     this->name = name;
@@ -38,4 +39,3 @@ void Vertex::incDegree() {
 int Vertex::getDegree() {
     return degree;
 }
-

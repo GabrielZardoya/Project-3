@@ -2,6 +2,9 @@
 #include <algorithm>
 #include <set>
 #include "Graph.h"
+#pragma once
+
+using namespace std;
 
 void Graph::insertEdge(int sourceVertex, int destinationVertex, float edgeWeight)
 {
@@ -29,6 +32,7 @@ float Graph::getWeight(int sourceVertex, int destinationVertex)
             return iter->second;
         }
     }
+
     return 0.0;
 }
 
@@ -90,3 +94,4 @@ int Graph::getVertices() {
 void Graph::setVertices(int vertices) {
     this->numOfVertices = vertices;
 }
+
